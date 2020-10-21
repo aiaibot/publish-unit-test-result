@@ -10,11 +10,6 @@ Unit test results are published in the GitHub Actions section of the respective 
 ***Note:** This action does not fail if unit tests failed. The action that executed the unit tests should
 fail on test failure.*
 
-Each failing test will produce an annotation with failure details:
-![...](github-checks-annotation.png)
-
-***Note:** Only the first failure of a test is shown. If you want to see all failures, set `report_individual_runs: "true"`.*
-
 A comment is posted on the pull request page of that commit, if one exists:
 
 ![...](github-pull-request-comment.png)
