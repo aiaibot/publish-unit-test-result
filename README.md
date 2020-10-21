@@ -45,7 +45,7 @@ and configure it as follows:
 
 ```yaml
 - name: Publish Unit Test Results
-  uses: aiaibot/publish-unit-test-result@v1.0
+  uses: aiaibot/publish-unit-test-result@v1
   if: always()
   with:
     github_token: ${{ secrets.GITHUB_TOKEN }}
